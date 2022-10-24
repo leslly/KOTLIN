@@ -14,9 +14,9 @@ return result
 
 fun main(){
 
-var transType: String = readLine()
-var orderTotal: Double = readLine()
-var result: Double
+var transType: String = readLine()!!.toString()
+var orderTotal: Double = readLine()!!.toDouble()
+var result: Double = 0.00
 
 if(orderTotal < 75 && transType == "no"){
  result = (10/100)*orderTotal
