@@ -20,26 +20,26 @@ This means, that, for example, if a car parked for 26 hours, the bill should be 
 
 6.5
 
-**Explanation:** 
+**Explanation:**
 
 The first 5 hours are billed at $1/hour, which results in $5. After that, the next 3 hours are billed at $0.5/hour = $1.5.
 
 So, the total would be $5+$1.5 = $**6.5**
 
 **NB:** The output should be a **Double**, even if the amount is a round number. */
-fun main(args:Arrays<String>){
-    
+fun main(args:Array<String>){
+
     var i = readLine()!!.toDouble()
 
-    if (i == 1) { 
+    if (i == 1) {
         println("Your fee is $" + i)
     }
-     else if(i in 2..5){
-         println("Your fee is $" + i)
-     }
-     else if(i in 6..8760){
-         println("Your fee is $" + 5+(i*0.5))
-     }
+    else if(i in 2..5){
+        println("Your fee is $" + i)
+    }
+    else if(i in 6..8760){
+        println("Your fee is $" + 5+(i*0.5))
+    }
 
     println("Hours parked:" + i)
     println(i)

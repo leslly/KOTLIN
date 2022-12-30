@@ -15,9 +15,9 @@ The water consumption in 5 years would be: 5*365*15 = **27375**
 **NB**: Use **365** as the number of days in a year.
  */
 
- fun main() {
-     var years = 5
-     val oneYear = 365
-     val water = 15
-     println(years*oneYear*water)
- }
+fun main() {
+    var years = 5
+    val oneYear = 365
+    val water = 15
+    println(years*oneYear*water)
+}

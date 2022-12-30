@@ -1,6 +1,6 @@
 //Control flow : if statements, else, when statements, conditiond and loops
 
-fun main(args: Arrays<String>) {
+fun main(args: Array<String>) {
 
     var age = 24
     if(age >= 18){
@@ -96,7 +96,7 @@ println(sum3)
 
 
 //end of main class
-/*Just tried to make a comment outside the class main but 
-it did not highlight green like so. does that mean that 
+/*Just tried to make a comment outside the class main but
+it did not highlight green like so. does that mean that
 we can't have more than one class in kotlin ? will find out soon */
 }

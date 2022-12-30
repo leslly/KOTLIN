@@ -1,11 +1,11 @@
 //Arrays
-fun main(args:Arrays<String>) {
+fun main(args: Array<String>) {
     var cars = arrayOf("benz", "Rollex", "Toyota")
     println(cars)
-    pritln(cars[1])
+    println(cars[1])
 
     //for loops
-    var nums = arraysOf(2, 4, 6, 8)
+    var nums = arrayOf(2, 4, 6, 8)
     for(x in nums){
         println(x)
     }
@@ -32,7 +32,7 @@ fun main(args:Arrays<String>) {
     if (w in 15..100){/*if 43 is in the range of numbers 15 t0 100
         that the variable 'w' initiates then print out yes */
         println("Yes")
-    } 
+    }
 
     val r = arrayOf(3, 5, 60, 96)
     if(60 in r){

@@ -1,4 +1,4 @@
-//Introduction to OOP
+/*Introduction to OOP
 fun main(){
     //class is blueprint
     //object is implementation of blueprint
@@ -10,7 +10,7 @@ fun main(){
 }
 
 class person{
-    
+
 var userName:String = "nvdkfofbko"
 var number:String = "9999"
 fun addNumbers(a: Int, b: Int): Int{
@@ -20,7 +20,7 @@ fun addNumbers(a: Int, b: Int): Int{
 }
 
 //constructors
-/*type of function used to initialised tthe properties of 
+/*type of function used to initialised tthe properties of
 a class */
 
 fun pracConstructors(){
@@ -31,11 +31,11 @@ println(personTwo.data)
 }
 
 class peronTwo{
-     var userNameTwo: String
+    var userNameTwo: String
     constructor(name:String){
         userNameTwo = name
     }
-    
+
 }
 //secondary constructor
 /* to change to primary constructor, hover cusor over
@@ -43,13 +43,16 @@ construtor and the message will come up
 click on that and the block of code will dissappear
 but it will still run fine */
 
-//primary constructor
+/*primary constructor
+
 class peronTwo(name: String, num:String){
-     var userNameTwo: String = name
-     var numberTwo: String = num
-     var data: String =""
-     init{
+    var userNameTwo: String = name
+    var numberTwo: String = num
+    var data: String =""
+    init{
          //used to write logic related to the class
-        data = "$name $num" 
-     }
+        data = "$name $num"
     }
+    }
+    */
+    */

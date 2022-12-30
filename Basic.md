@@ -36,4 +36,4 @@ Data Types
 
  Input
 
- 
+ Apply:Higher order funtions
